@@ -1,10 +1,35 @@
 --[[
     Swordburst 2 GUI
 
-    Mfw Wally complains I stole his idea if checking a mod is online when he stole it from DC :kekw: https://sperg.club/uploads/Ave8juZmTTPHr7tX.png
-
-    By Spencer#0003
+korke
 ]]
+
+-- prints  
+print("Thank you for using Korke.ml")
+print("Made by Korke https://www.youtube.com/channel/UCNDObyaH23TwYZeRYRtOCSw")
+
+-- notify
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+            Title = "Loaded GUI!";
+            Text = "Korke.ml has been loaded...";
+ })
+
+-- colors
+
+_G.MainColor = Color3.fromRGB(141, 0, 251) -- 0,0,0 are just RGB colors and u can usually get them from a hex wheel or wutever im pretty sure u already know that
+_G.SecondaryColor = Color3.fromRGB(5,5,5)
+_G.TertiaryColor = Color3.fromRGB(15, 15, 15)
+_G.SliderColor = Color3.fromRGB(141, 0, 251)
+_G.ButtonColor = Color3.fromRGB(141, 0, 251)
+_G.ToggleColor = Color3.fromRGB(141, 0, 251)
+_G.ArrowColor = Color3.fromRGB(255,255,255)
+_G.MainTextColor = Color3.fromRGB(159, 68, 255)
+_G.PointerColor = Color3.fromRGB(141, 0, 251)
+_G.DraggerCircleColor = Color3.fromRGB(255,255,255)
+_G.BindColor = Color3.fromRGB(141, 0, 251)
+
+
 
 -- Init
 
