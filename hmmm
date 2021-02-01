@@ -15,22 +15,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
             Text = "Korke.ml has been loaded...";
  })
 
--- colors
-
-_G.MainColor = Color3.fromRGB(141, 0, 251) -- 0,0,0 are just RGB colors and u can usually get them from a hex wheel or wutever im pretty sure u already know that
-_G.SecondaryColor = Color3.fromRGB(5,5,5)
-_G.TertiaryColor = Color3.fromRGB(15, 15, 15)
-_G.SliderColor = Color3.fromRGB(141, 0, 251)
-_G.ButtonColor = Color3.fromRGB(141, 0, 251)
-_G.ToggleColor = Color3.fromRGB(141, 0, 251)
-_G.ArrowColor = Color3.fromRGB(255,255,255)
-_G.MainTextColor = Color3.fromRGB(159, 68, 255)
-_G.PointerColor = Color3.fromRGB(141, 0, 251)
-_G.DraggerCircleColor = Color3.fromRGB(255,255,255)
-_G.BindColor = Color3.fromRGB(141, 0, 251)
-
-
-
 -- Init
 
 local getupvalue = getupvalue or debug.getupvalue;
@@ -44,6 +28,20 @@ local client = players.LocalPlayer;
 
 local runService = game:GetService("RunService");
 local heartbeat = runService.heartbeat;
+
+-- colors
+
+_G.MainColor = Color3.fromRGB(141, 0, 251) -- 0,0,0 are just RGB colors and u can usually get them from a hex wheel or wutever im pretty sure u already know that
+_G.SecondaryColor = Color3.fromRGB(5,5,5)
+_G.TertiaryColor = Color3.fromRGB(15, 15, 15)
+_G.SliderColor = Color3.fromRGB(141, 0, 251)
+_G.ButtonColor = Color3.fromRGB(141, 0, 251)
+_G.ToggleColor = Color3.fromRGB(141, 0, 251)
+_G.ArrowColor = Color3.fromRGB(255,255,255)
+_G.MainTextColor = Color3.fromRGB(159, 68, 255)
+_G.PointerColor = Color3.fromRGB(141, 0, 251)
+_G.DraggerCircleColor = Color3.fromRGB(255,255,255)
+_G.BindColor = Color3.fromRGB(141, 0, 251)
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Xarkkz/stolenstuff/main/re"))();
 local moderators = game:HttpGet("https://raw.githubusercontent.com/Xarkkz/stolenstuff/main/mods"):split("\n");
